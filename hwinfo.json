@@ -1,0 +1,21 @@
+{
+  "id": "hwinfo",
+  "description": "Hardware Info plugin",
+  "gendevices": 0,
+  "single":1,
+  "module": "index.js",
+  "params": [
+    {
+      "name": "modules",
+      "note": "Glances modules (glances --modules-list)",
+      "type": "string",
+      "val": "cpu,percpu,mem,memswap,connections,processcount,uptime,sensors"
+    },
+    {
+      "name": "refresh",
+      "note": "Refresh time (sec)",
+      "type": "string",
+      "val": "15"
+    }
+  ]
+}
