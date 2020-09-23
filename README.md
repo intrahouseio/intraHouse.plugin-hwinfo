@@ -1,5 +1,3 @@
 # intraHouse.plugin-hwinfo
 
-dependents:
-
-`sudo apt-get install glances`
+Plugin dependents: `sudo apt-get install glances`
